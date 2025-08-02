@@ -244,7 +244,7 @@ python utils/check_docstrings.py # diff에 포함된 파일만 확인하고 수�
 
 `@auto_docstring` 데코레이터는 다음을 통해 docstring을 자동으로 생성합니다.
 
-1. 데코레이트된 클래스의 `__init__` 메서드 또는 데코레이트된 함수의 시그니처(인자, 타입, 기본값)를 검사합니다. 
+1. 데코레이트된 클래스의 `__init__` 메소드 또는 데코레이트된 함수의 시그니처(인자, 타입, 기본값)를 검사합니다. 
 2. 일반적인 인자 (`input_ids`, `attention_mask`, 등)에 대해 미리 정의된 docstring을 [`ModelArgs`], [`ImageProcessorArgs`] 및 `args_doc.py` 파일과 같은 내부 라이브러리 소스에서 검색합니다. 
 3. 아래와 같이 두 가지 방법 중 하나로 인자 설명을 추가합니다.
 
