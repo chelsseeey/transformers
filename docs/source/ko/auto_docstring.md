@@ -16,7 +16,7 @@ rendered properly in your Markdown viewer.
 
 # 모델 문서화[[documenting-a-model]]
 
-Transformers의 `@auto_docstring` 데코레이터는 모델 클래스 및 해당 메서드에 일관된 docstring을 생성합니다. 이는 표준 인자 설명을 자동으로 포함하면서도 새로운 또는 사용자 지정 인자를 추가하기 위한 재정의를 허용하여 상용구 코드를 줄입니다. [새 모델 기여하기](./modular_transformers)는 표준 docstring을 수동으로 추가할 필요 없이 새 인자 문서화에만 집중할 수 있어 더 쉬워집니다.
+Transformers의 `@auto_docstring` 데코레이터는 모델 클래스 및 해당 메소드에 일관된 docstring을 생성합니다. 이는 표준 인자 설명을 자동으로 포함하면서도 새로운 또는 사용자 지정 인자를 추가하기 위한 재정의를 허용하여 상용구 코드를 줄입니다. [새 모델 기여하기](./modular_transformers)는 표준 docstring을 수동으로 추가할 필요 없이 새 인자의 문서화에만 집중할 수 있어 더 쉬워집니다.
 
 이 가이드에서는 `@auto_docstring` 데코레이터 사용 방법과 그 작동 방식을 설명합니다.
 
