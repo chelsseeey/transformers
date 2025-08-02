@@ -169,7 +169,7 @@ class MyModel(PreTrainedModel):
 
 ## 인자 문서화[[documenting-arguments]]
 
-다양한 유형의 인자를 문서화하기 위한 몇 가지 규칙이 있으며, 아래에 나열되어 있습니다.
+다양한 유형의 인자를 문서화하기 위한 규칙을 아래서 확인할 수 있습니다.
 
 - 표준 인자(`input_ids`, `attention_mask`, `pixel_values` 등)는 `args_doc.py`에서 정의되어 있으며, 해당 파일에서 불러와 사용합니다. 이는 표준 인자에 대한 단일 정보 출처이므로, 인자의 설명과 형태가 `args_doc.py`의 인자와 동일한 경우에는 로컬에서 재정의해서는 안 됩니다.
 
