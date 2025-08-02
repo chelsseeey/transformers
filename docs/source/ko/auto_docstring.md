@@ -114,7 +114,7 @@ class MySpecialModel(PreTrainedModel):
         # ...
 ```
 
-제어를 강화하기 위해 인자들을 `@auto_docstring`에 직접 전달할 수도 있습니다.  Use the `custom_intro` parameter to describe the argument and the `custom_args` parameter to describe the arguments.
+제어를 강화하기 위해 인자들을 `@auto_docstring`에 직접 전달할 수도 있습니다.  `custom_intro` 매개변수는 인자들에 대한 전반적인 설명을 작성할 때 사용하고, `custom_args` 매개변수는 각 인자별 설명을 작성할 때 사용합니다.
 
 docstring의 `Returns` 및 `Examples` 부분도 수동으로 지정할 수 있습니다.
 
