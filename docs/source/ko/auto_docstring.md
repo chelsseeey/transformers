@@ -189,7 +189,7 @@ class MyModel(PreTrainedModel):
     * 인자가 필수가 아니거나 기본값이 있는 경우 *optional*을 추가하세요.
     * 기본값이 있는 경우 "defaults to X"를 추가하세요. 기본값이 None인 경우 "defaults to None"을 추가할 필요는 없습니다.
 
-    이러한 인자들은 `custom_args` 인자로 `@auto_docstring`에 전달할 수도 있습니다.  이는 모델링 파일의 여러 위치에서 새로운 인자들의 docstring 블록이 반복되는 경우 한 번만 정의하는 데 사용됩니다.
+    이러한 인자들은 `custom_args` 인자로 `@auto_docstring`에 전달할 수도 있습니다. 이는 모델링 파일의 여러 위치에서 새로운 인자들의 docstring 블록이 반복되는 경우 한 번만 정의하는 데 사용됩니다.
 
     ```py
     class MyModel(PreTrainedModel):
