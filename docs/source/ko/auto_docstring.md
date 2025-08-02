@@ -273,7 +273,7 @@ python utils/check_docstrings.py # diff에 포함된 파일만 확인하고 수�
 
 Transformers의 일관되고 유익한 문서를 유지하는 데 도움이 되도록 다음 모범 사례를 따르세요!
 
-* 새로운 PyTorch 모델 클래스 ([`PreTrainedModel`] 서브클래스) 및 `forward` 또는 `get_text_features`와 같은 기본 메서드에 `@auto_docstring`을 사용하세요. 
+* 새로운 PyTorch 모델 클래스 ([`PreTrainedModel`] 서브클래스) 및 `forward` 또는 `get_text_features`와 같은 기본 메소드에 `@auto_docstring`을 사용하세요. 
 * 클래스의 경우, `@auto_docstring`은 `__init__` 메서드의 docstring에서 파라미터 설명을 검색합니다.
 * 표준 docstring에 의존하고, 모델에서 동작이 다르지 않는 한 공통 인자를 재정의하지 마세요.
 * 새로운 또는 사용자 지정 인자를 명확하게 문서화하세요.
