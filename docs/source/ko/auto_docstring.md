@@ -33,7 +33,7 @@ from ...utils import auto_docstring
 <hfoptions id="type">
 <hfoption id="classes">
 
-`@auto_docstring`을 클래스 정의 바로 위에 배치합니다. 이 데코레이터는 `__init__` 메서드의 시그니처와 docstring에서 매개변수 설명을 추출합니다.
+`@auto_docstring`을 클래스 정의 바로 위에 배치합니다. 이 데코레이터는 `__init__` 메소드의 시그니처와 docstring에서 매개변수 설명을 추출합니다.
 
 ```python
 from transformers.modeling_utils import PreTrainedModel
