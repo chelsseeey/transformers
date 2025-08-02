@@ -207,7 +207,7 @@ class MyModel(PreTrainedModel):
 
 ## docstring 검사[[checking-the-docstrings]]
 
-Transformers는 Pull Request에서 CI(지속적 통합) 검사를 트리거할 때 docstring 유효성을 확인하는 유틸리티 스크립트를 포함합니다. 스크립트는 다음 기준을 검사합니다.
+Transformers는 Pull Request에서 CI(continuous intergration, 지속적 통합) 검사를 트리거할 때 docstring 유효성을 확인하는 유틸리티 스크립트를 포함합니다. 스크립트는 다음 기준을 검사합니다.
 
 * `@auto_docstring` 이 관련 모드 클래스 및 공개 메서드에 적용되었는지 확인합니다.
 * 인자가 완전하고 일관적인지 확인합니다. 문서화된 인자가 시그니처에 존재하는지 확인하고, docstring의 타입 및 기본값이 시그니처와 일치하는지 검증합니다. 알려진 표준 인자가 아니거나 로컬 설명이 없는 인자는 플래그가 지정됩니다.
