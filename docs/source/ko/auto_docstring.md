@@ -250,7 +250,7 @@ python utils/check_docstrings.py # diff에 포함된 파일만 확인하고 수�
 
     | 방법 | 설명 | 사용법 |
     |---|---|---|
-    | `r""" """` | 메서드 시그니처에 직접 또는 `__init__` docstring 내에 사용자 지정 docstring 내용을 추가합니다. | 새로운 인자를 문서화하거나 표준 설명을 재정의합니다. |
+    | `r""" """` | 메소드 시그니처에 직접 또는 `__init__` docstring 내에 사용자 지정 docstring 내용을 추가합니다. | 새로운 인자를 문서화하거나 표준 설명을 재정의합니다. |
     | `custom_args` | `@auto_docstring`에 특정 인자에 대한 사용자 지정 Docstring을 직접 추가합니다. | 모델링 파일의 여러 위치에서 반복되는 경우 새로운 인자에 대한 docstring을 한 번만 정의합니다. |
 
 4. 클래스 및 함수 설명을 추가합니다. `ModelForCausalLM`과 같은 표준 명명 패턴을 가진 모델 클래스 또는 파이프라인에 속하는 경우, `@auto_docstring`은 `args_doc.py`의 `ClassDocstring`을 사용하여 적절한 설명을 자동으로 생성합니다. 
