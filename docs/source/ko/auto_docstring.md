@@ -56,7 +56,7 @@ class MyAwesomeModel(PreTrainedModel):
     # ... 기타 메소드
 ```
 
-보다 세밀한 제어를 위해 인자를 `@auto_docstring` 에 직접 전달할 수도 있습니다. `custom_intro` 파라미터를 사용하여 인자 목록에 대한 설명을, `custom_args` 파라미터를 사용하여 개별 인자들을 설명하세요.
+보다 세밀한 제어를 위해 인자를 `@auto_docstring` 에 직접 전달할 수도 있습니다. `custom_intro` 파라미터를 사용하여 인자 목록에 대한 설명을, `custom_args` 파라미터를 사용하여 개별 인자들을 설명할 수 있습니다.
 
 ```python
 @auto_docstring(
